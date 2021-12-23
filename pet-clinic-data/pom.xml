@@ -12,6 +12,7 @@
     <artifactId>pet-clinic-data</artifactId>
 
     <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
@@ -60,17 +61,7 @@
                         </exclude>
                     </excludes>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
-                    </execution>
-                </executions>
-             </plugin>
+              </plugin>
         </plugins>
     </build>
 
