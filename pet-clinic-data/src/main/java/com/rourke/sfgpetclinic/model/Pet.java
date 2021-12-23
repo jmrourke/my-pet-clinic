@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 /* Jim created on 12/23/2021
 inside the package - com.rourke.sfgpetclinic.model */
-public class Pet {
+public class Pet extends  BaseEntity {
 
     private PetType petType;
     private Owner owner;
